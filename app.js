@@ -28,5 +28,3 @@ UserRegister.sync().catch((error) => {
 UserRelation.sync().catch((error) => {
     console.log('Unable to create table: ', error);
 });
-
-console.log("develop branch");
